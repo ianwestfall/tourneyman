@@ -16,5 +16,23 @@ var/
 .installed.cfg
 *.egg
 
+.idea
+
+node_modules
+
+# FE
+frontend/.DS_Store
+frontend/node_modules
+frontend/dist
+
+frontend/tests/e2e/videos/
+frontend/tests/e2e/screenshots/
+frontend/.env.local
+frontend/.env.*.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
 # Serverless directories
 .serverless
